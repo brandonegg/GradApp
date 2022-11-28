@@ -86,7 +86,7 @@ When(/^I select to view "(.*?)" "(.*?)"'s graduate application$/) do |first, las
 end
 
 Then(/^I should see the application status "(.*?)"$/) do |status|
-  expect(page).to have_content status
+  expect(page.find('#status_message')).to have_content status
 end
 
 Then(/^I should see "(.*?)"'s application before "(.*?)"'s$/) do |_higher_name, _lower_name|
