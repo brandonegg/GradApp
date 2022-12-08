@@ -10,7 +10,7 @@
   %tbody
     - @discussions_with_replies.each do | discussion_with_reply|
       %tr
-        - if discussion_with_reply.account[:account_type] == 'Faculty'
+        - if discussion_with_reply.account[:account_type] == 'Faculty' or discussion_with_reply.account[:account_type] == 'Department Chair'
           %td= raw('&#9733;')
         - else
           %td= ''
@@ -22,7 +22,7 @@
           %td
           %td= link_to "Delete", discussion_path(discussion_with_reply), method: :delete
 
-%p &#9733; => Faculty Post
+%p &#9733; => Faculty/ Department Chair Post
 
 %br
 
