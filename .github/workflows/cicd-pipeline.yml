@@ -127,7 +127,7 @@ jobs:
   # note: database is not shared with prod, so we use seeds here
   Deploy-Beta:
     # ONLY deploy on PUSH to MAIN branch of UIOWAjohnsonhj/selt2022_teamprojects-team-4
-    if: (github.event_name == 'push') && (needs.Tree-Check.outputs.commit_hash == needs.Tree-Check.outputs.main_head) && (github.repository == 'UIOWAjohnsonhj/selt2022_teamprojects-team-4')
+    if: false && (github.event_name == 'push') && (needs.Tree-Check.outputs.commit_hash == needs.Tree-Check.outputs.main_head) && (github.repository == 'UIOWAjohnsonhj/selt2022_teamprojects-team-4')
     needs: 
       - Staging
       - Tree-Check
@@ -172,7 +172,7 @@ jobs:
   # on the current sprint iteration
   Deploy-Prod:
     # ONLY deploy on TAGGED PUSH to MAIN branch of UIOWAjohnsonhj/selt2022_teamprojects-team-4
-    if: (github.event_name == 'push') && (needs.Tree-Check.outputs.commit_hash == needs.Tree-Check.outputs.main_head) && (startsWith(github.ref, 'refs/tags/selt2022_sprint')) && (github.repository == 'UIOWAjohnsonhj/selt2022_teamprojects-team-4')
+    if: false && (github.event_name == 'push') && (needs.Tree-Check.outputs.commit_hash == needs.Tree-Check.outputs.main_head) && (startsWith(github.ref, 'refs/tags/selt2022_sprint')) && (github.repository == 'UIOWAjohnsonhj/selt2022_teamprojects-team-4')
     needs:
       - Deploy-Beta
       - Tree-Check
