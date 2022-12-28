@@ -1,7 +1,10 @@
 # Welcome to the Grad App Project
 The ultimate graduate student application portal, social platform, and collective database for all your needs regarding graduate programs offered at the University of Iowa.
 
-Check out our website [here](https://uiowa-grad-app-v3.herokuapp.com/)!
+# Features
+TODO: Add screenshots of features
+
+# Developer Documenation
 
 ## Version Information
 Below are details regarding the tech stack of the project and versions utilized by the team.
