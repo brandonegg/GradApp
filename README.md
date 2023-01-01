@@ -1,8 +1,12 @@
 # Welcome to the Grad App Project
 The ultimate graduate student application portal, social platform, and collective database for all your needs regarding graduate programs offered at the University of Iowa.
+![image](docs/homepage.png)
 
 # Features
-TODO: Add screenshots of features
+
+## Graduate Application Submission
+The main focus of the Grad App project was to build a web application to allow the University to easily accept applicants for its graduate programs offered by the College of Engineering. As it stands, submission of these application is the core feature of the of application.
+
 
 # Developer Documenation
 
