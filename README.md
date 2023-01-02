@@ -6,12 +6,12 @@
 # Features
 
 ## Graduate Application Submission
-- Students can attach student documents (such as transcripts or letters of recommendations) which are uploaded to Google Cloud.
+- Attach documents to your application (such as transcripts and references) which are securely stored in the Google Cloud.
 <p align="center">
   <img src="docs/student-documents.png" width="400" />
 </p>
 
-- Students can add multiple educations to their application to mark their work in academia.
+- Add your education history to the application to give faculty more information on your background in academia.
 <p align="center">
   <img src="docs/student-educations.png" width="400" />
 </p>
@@ -22,12 +22,12 @@
 </p>
 
 ## Discussions
-- students and faculty can submit and reply to discussion threads to ask/answer questions and learn more about the programs offered.
+- Students and faculty can submit and reply to discussion threads to ask/answer questions and learn more about the programs offered.
 <p align="center">
   <img src="docs/discussion-example.png" width="400" />
 </p>
 
-- Direct messaging between faculty and staff also exists throught the messages tab.
+- Direct messages can be sent between users of the platform.
 
 ## Research Areas
 Faculty may add details about the research area they represent to inform prospective students.
