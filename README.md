@@ -1,7 +1,29 @@
 # Welcome to the Grad App Project
+
 <p align="center">
-  <img src="docs/homepage.png" width="600" />
+  <img src="docs/homepage.png" width="400" />
 </p>
+
+- [Welcome to the Grad App Project](#welcome-to-the-grad-app-project)
+- [Features](#features)
+  - [Graduate Application Submission](#graduate-application-submission)
+  - [Discussions](#discussions)
+  - [Research Areas](#research-areas)
+- [Developer Documenation](#developer-documenation)
+  - [Version Information](#version-information)
+  - [Setup](#setup)
+    - [Local Environment](#local-environment)
+      - [Install gem dependencies for dev environment](#install-gem-dependencies-for-dev-environment)
+      - [Setup the local DB](#setup-the-local-db)
+    - [Run Local Rails Server](#run-local-rails-server)
+    - [Deploying to Heroku](#deploying-to-heroku)
+  - [Project Organization Tools](#project-organization-tools)
+    - [Commit Messages](#commit-messages)
+    - [Pull Requests](#pull-requests)
+    - [Actions Pipeline](#actions-pipeline)
+      - [Our workflow does the following:](#our-workflow-does-the-following)
+  - [Miscellaneous](#miscellaneous)
+    - [Code Coverage](#code-coverage)
 
 # Features
 
