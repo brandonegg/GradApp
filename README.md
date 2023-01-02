@@ -1,8 +1,58 @@
 # Welcome to the Grad App Project
-The ultimate graduate student application portal, social platform, and collective database for all your needs regarding graduate programs offered at the University of Iowa.
+
+<p align="center">
+  <img src="docs/homepage.png" width="400" />
+</p>
+
+- [Welcome to the Grad App Project](#welcome-to-the-grad-app-project)
+- [Features](#features)
+  - [Graduate Application Submission](#graduate-application-submission)
+  - [Discussions](#discussions)
+  - [Research Areas](#research-areas)
+- [Developer Documenation](#developer-documenation)
+  - [Version Information](#version-information)
+  - [Setup](#setup)
+    - [Local Environment](#local-environment)
+      - [Install gem dependencies for dev environment](#install-gem-dependencies-for-dev-environment)
+      - [Setup the local DB](#setup-the-local-db)
+    - [Run Local Rails Server](#run-local-rails-server)
+    - [Deploying to Heroku](#deploying-to-heroku)
+  - [Project Organization Tools](#project-organization-tools)
+    - [Commit Messages](#commit-messages)
+    - [Pull Requests](#pull-requests)
+    - [Actions Pipeline](#actions-pipeline)
+      - [Our workflow does the following:](#our-workflow-does-the-following)
+  - [Miscellaneous](#miscellaneous)
+    - [Code Coverage](#code-coverage)
 
 # Features
-TODO: Add screenshots of features
+
+## Graduate Application Submission
+- Attach documents to your application (such as transcripts and references) which are securely stored in the Google Cloud.
+<p align="center">
+  <img src="docs/student-documents.png" width="400" />
+</p>
+
+- Add your education history to the application to give faculty more information on your background in academia.
+<p align="center">
+  <img src="docs/student-educations.png" width="400" />
+</p>
+
+- Applications that have been submitted are then reviewed by faculty through the evaluations section.
+<p align="center">
+  <img src="docs/evaluations.png" width="200" />
+</p>
+
+## Discussions
+- Students and faculty can submit and reply to discussion threads to ask/answer questions and learn more about the programs offered.
+<p align="center">
+  <img src="docs/discussion-example.png" width="400" />
+</p>
+
+- Direct messages can be sent between users of the platform.
+
+## Research Areas
+Faculty may add details about the research area they represent to inform prospective students.
 
 # Developer Documenation
 
