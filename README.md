@@ -1,8 +1,6 @@
 # Welcome to the Grad App Project
 
-<p align="center">
-  <img src="docs/homepage.png" width="400" />
-</p>
+<img src="docs/homepage.png" width="400" />
 
 - [Welcome to the Grad App Project](#welcome-to-the-grad-app-project)
 - [Features](#features)
