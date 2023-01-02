@@ -6,8 +6,31 @@
 # Features
 
 ## Graduate Application Submission
-The main focus of the Grad App project was to build a web application to allow the University to easily accept applicants for its graduate programs offered by the College of Engineering. As it stands, submission of these application is the core feature of the of application.
+- Students can attach student documents (such as transcripts or letters of recommendations) which are uploaded to Google Cloud.
+<p align="center">
+  <img src="docs/student-documents.png" width="400" />
+</p>
 
+- Students can add multiple educations to their application to mark their work in academia.
+<p align="center">
+  <img src="docs/student-educations.png" width="400" />
+</p>
+
+- Applications that have been submitted are then reviewed by faculty through the evaluations section.
+<p align="center">
+  <img src="docs/evaluations.png" width="200" />
+</p>
+
+## Discussions
+- students and faculty can submit and reply to discussion threads to ask/answer questions and learn more about the programs offered.
+<p align="center">
+  <img src="docs/discussion-example.png" width="400" />
+</p>
+
+- Direct messaging between faculty and staff also exists throught the messages tab.
+
+## Research Areas
+Faculty may add details about the research area they represent to inform prospective students.
 
 # Developer Documenation
 
