@@ -1,9 +1,7 @@
 # Welcome to the Grad App Project
-The ultimate graduate student application portal, social platform, and collective database for all your needs regarding graduate programs offered at the University of Iowa.
-
-<center>
-    <img src="docs/homepage.png" alt="drawing" width="200"/>
-</center>
+<p align="center">
+  <img src="docs/homepage.png" width="600" />
+</p>
 
 # Features
 
