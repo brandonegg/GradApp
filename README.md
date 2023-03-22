@@ -3,7 +3,9 @@
   <img src="docs/homepage.png" width="400" />
 </p>
 
+### Table of Contents:
 - [Welcome to the Grad App Project](#welcome-to-the-grad-app-project)
+    - [Table of Contents:](#table-of-contents)
 - [Features](#features)
   - [Graduate Application Submission](#graduate-application-submission)
   - [Discussions](#discussions)
